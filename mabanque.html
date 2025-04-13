@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+    <title>Mon Projet - Mabanque</title>
+
+    <!-- --------- UNICONS ---------- -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    
+    <!-- --------- CSS ---------- -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <!-- --------------- HEADER --------------- -->
+        <nav id="header">
+            <div class="nav-logo">
+                <p class="nav-name">Mon Portfolio</p>
+                
+            </div>
+            <div class="nav-menu" id="myNavMenu">
+                <ul class="nav_menu_list">
+                  <li class="nav_list"><a href="index.html" class="nav-link active-link">Accueil</a></li>
+                  <li class="nav_list"><a href="index.html" class="nav-link">BTS SIO</a></li>
+                  <li class="nav_list"><a href="index.html" class="nav-link">À propos</a></li>
+                  <li class="nav_list"><a href="index.html" class="nav-link">Mes projets</a></li>
+                  <li class="nav_list"><a href="index.html" class="nav-link">Tableau de synthèse</a></li>
+                  <li class="nav_list"><a href="index.html" class="nav-link">Mes stages</a></li>
+                  <li class="nav_list"><a href="index.html" class="nav-link">Contact</a></li>
+                  <li class="nav_list"><a href="index.html" class="nav-link">Veille</a></li>
+                </ul>
+              </div>
+            
+        </nav>
+
+        <!-- -------------- PROJECT DETAILS ---------------- -->
+        <main class="wrapper">
+            <section class="project-detail">
+                <div class="project-header">
+                    <h1>Projet : Mabanque</h1>
+                    
+                </div>
+
+                <!-- Image au-dessus de la description -->
+                <div class="project-image-top">
+                    <img src="assets/images/mabanqueimage.png" alt="Image du projet Mabanque" class="project-img-top">
+                </div>
+
+                <div class="project-header">
+                    <h1>Projet : Mabanque</h1>
+                    
+                </div>
+                <br>
+                <br>
+<p>Le projet consiste à sécuriser l’infrastructure informatique de l’entreprise M@ Banque en corrigeant les failles du site web, en protégeant les serveurs (FTP, HTTP, AD, SSH), en mettant en place une messagerie sécurisée et un système de sauvegarde, tout en développant un site web fonctionnel avec base de données.</p>
+       <br>         
+                    <div class="project-info">
+                        <h1>Cahier des charges</h1>
+                        
+                        <h2>La banque possède divers services informatiques à sécuriser</h2>
+                        <ul>
+                            <li>Un serveur web permettant l’accès aux comptes clients, avec des pages d’accueil et de connexion.</li>
+                            <li>Une base de données pour la gestion des comptes clients.</li>
+                            <li>Un serveur Active Directory (AD) pour la gestion des sessions employées, comprenant au moins un compte développeur et un compte administrateur.</li>
+                            <li>Un serveur FTP pour la mise à jour du site web par le développeur.</li>
+                            <li>Un accès distant SSH pour l’administration.</li>
+                            <li>Un service de messagerie pour la communication entre clients et conseillers, avec au moins un compte client et un compte conseiller.</li>
+                        </ul>
+                        <br>
+
+                        <h2>Menaces identifiées : Deux attaques récentes soulignent des faiblesses de sécurité</h2>
+                        <ul>
+                            <li>1° Défiguration du site web, facilitée par un mot de passe FTP faible et une configuration de serveur ouverte.</li>
+                            <li>2° Hameçonnage, avec des emails frauduleux visant à voler les identifiants bancaires des clients.</li>
+                        </ul>
+                        <br>
+
+                        <h2>Solutions de sécurisation : Pour contrer ces menaces, plusieurs mesures sont recommandées</h2>
+                        <ul>
+                            <li>Chiffrement HTTPS pour le serveur web.</li>
+                            <li>Utilisation de FTPS avec accès limité (désactivation des accès anonymes) et une liste blanche autorisant seulement le développeur.</li>
+                            <li>Sauvegardes régulières du site pour contrer les attaques de défiguration ou de rançongiciels.</li>
+                            <li>Adoption de politiques de mots de passe robustes pour tous les accès.</li>
+                            <li>Mise en place d’une messagerie sécurisée par chiffrement et signature numérique pour protéger l’authentification et l’intégrité des communications.</li>
+                            <li>Un service de messagerie pour la communication entre clients et conseillers, avec au moins un compte client et un compte conseiller.</li>
+                            <li>Ces mesures visent à renforcer la sécurité globale des services et à protéger les données sensibles de la banque.</li>
+                        </ul>
+                        <br>
+
+                        <h2>A savoir</h2>
+                        <ul>
+                            <li>Ce projet a été conçu comme un travail de groupe, avec une répartition des rôles en fonction des spécialités de chaque étudiant. Les binômes étaient formés de manière à associer un étudiant en SLAM (développement logiciel) avec un étudiant en SISR (réseaux et infrastructures systèmes). Cette configuration permettait à chacun de se concentrer sur ses compétences principales : les étudiants en SLAM étaient davantage impliqués dans les aspects de développement et de configuration des applications, tandis que ceux en SISR se concentraient sur la sécurisation et la gestion des infrastructures réseaux et serveurs.</li>
+                            <br>
+                            <li>Ce projet a été conçu comme un travail de groupe, avec une répartition des rôles en fonction des spécialités de chaque étudiant. Les binômes étaient formés de manière à associer un étudiant en SLAM (développement logiciel) avec un étudiant en SISR (réseaux et infrastructures systèmes). Cette configuration permettait à chacun de se concentrer sur ses compétences principales : les étudiants en SLAM étaient davantage impliqués dans les aspects de développement et de configuration des applications, tandis que ceux en SISR se concentraient sur la sécurisation et la gestion des infrastructures réseaux et serveurs.</li>
+                            
+                        </ul>
+
+
+
+                    </div>
+                </div>
+
+                
+            </section>
+        </main>
+
+        <!-- --------------- FOOTER --------------- -->
+        <footer>
+            <div class="top-footer">
+                <p>Rouis Kalifa .</p>
+            </div>
+            <div class="middle-footer">
+                <ul class="f
